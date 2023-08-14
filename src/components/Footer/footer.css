@@ -1,0 +1,18 @@
+.footer{
+    background-color: black;
+    display: flex;
+    width: 100%;
+    padding: 1px 0 4px 0;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.contact{
+    display: flex;
+    gap: 0.5rem;
+}
+.footer-icon:hover{
+    cursor: pointer;
+    color: darkgrey;
+}
+

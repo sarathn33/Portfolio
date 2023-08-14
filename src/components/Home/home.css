@@ -1,0 +1,22 @@
+.Home{
+    background-color: #7E89FD;
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+    padding-top: 20px;
+}
+.social-media{
+    display: flex;
+    gap: 1rem;
+}
+.home-img{
+    padding-top: 20px;
+    mix-blend-mode:lighten;
+    
+}
