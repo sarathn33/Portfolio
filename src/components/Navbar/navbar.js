@@ -7,6 +7,7 @@ import { HashLink as Link } from "react-router-hash-link";
 const Navbar = () => {
     const [click,setClick]=useState(false)
     const handleClick = () =>setClick(!click)
+    const closeMenu=()=>setClick(false)
 
     
     
@@ -15,23 +16,23 @@ const Navbar = () => {
           
           <ul className={click ? "nav-menu active":"nav-menu"}>
             <li>
-            <Link smooth to="/#">Home</Link>
+            <Link smooth to="/#" onClick={closeMenu}>Home</Link>
             </li>
     
             <li>
-            <Link smooth to="/#about">About</Link>
+            <Link smooth to="/#about" onClick={closeMenu}>About</Link>
             </li>
     
             <li>
-            <Link smooth to="/#skills">Skills</Link>
+            <Link smooth to="/#skills" onClick={closeMenu}>Skills</Link>
             </li>
     
             <li>
-            <Link smooth to="/#projects">Projects</Link>
+            <Link smooth to="/#projects" onClick={closeMenu}>Projects</Link>
             </li>
     
             <li>
-            <Link smooth to="/#contact">Contact</Link>
+            <Link smooth to="/#contact" onClick={closeMenu}>Contact</Link>
             </li>
           </ul>
           <div className="hamburger" onClick={handleClick}>
