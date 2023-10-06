@@ -30,9 +30,9 @@ const Projects=()=>{
         </Typography>
       </CardContent>
       <CardActions className="project-btn">
-      <Button className="pro-btn" onClick={()=>window.open("https://todo-fullstack-app-mern.netlify.app/","_blank")} variant="contained" endIcon={<OpenInBrowserIcon/>} sx={{bgcolor:"greenyellow",":hover":{bgcolor:"yellow"},"color":{color:"black"}}}>Live Site</Button>
-      <Button className="pro-btn" onClick={()=>window.open("https://github.com/sarathn33/todo","_blank")} variant="contained" endIcon={<SourceIcon/>} sx={{bgcolor:"greenyellow",":hover":{bgcolor:"yellow"},"color":{color:"black"}}}>Front-End</Button>
-      <Button className="pro-btn" onClick={()=>window.open("https://github.com/sarathn33/Todo_fullstack/tree/main/server","_blank")} variant="contained" endIcon={<SourceIcon/>} sx={{bgcolor:"greenyellow",":hover":{bgcolor:"yellow"},"color":{color:"black"}}}>Back-End</Button>
+      <Button className="pro-btn" onClick={()=>window.open("https://todo-app-fs.netlify.app/","_blank")} variant="contained" endIcon={<OpenInBrowserIcon/>} sx={{bgcolor:"greenyellow",":hover":{bgcolor:"yellow"},"color":{color:"black"}}}>Live Site</Button>
+      <Button className="pro-btn" onClick={()=>window.open("https://github.com/sarathn33/todo_FE.git","_blank")} variant="contained" endIcon={<SourceIcon/>} sx={{bgcolor:"greenyellow",":hover":{bgcolor:"yellow"},"color":{color:"black"}}}>Front-End</Button>
+      <Button className="pro-btn" onClick={()=>window.open("https://github.com/sarathn33/todo-BE.git","_blank")} variant="contained" endIcon={<SourceIcon/>} sx={{bgcolor:"greenyellow",":hover":{bgcolor:"yellow"},"color":{color:"black"}}}>Back-End</Button>
       </CardActions>
             </Card>
 
